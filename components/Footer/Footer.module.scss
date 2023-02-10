@@ -1,0 +1,57 @@
+.footer {
+  text-align: center;
+}
+.inner {
+  padding-top: 64px;
+  padding-bottom: 44px;
+  background: url(/images/bg3.png) no-repeat center center/cover;
+}
+
+.nav {
+  margin: 0 auto;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: 1.4rem;
+  text-align: left;
+}
+
+.lists {
+  margin-bottom: 80px;
+}
+
+.list {
+  font-size: 1.8rem;
+  margin-left: 1.25vw;
+  &:last-child {
+    margin-left: 0;
+  }
+}
+
+.logoWrap {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+.addressWrap {
+  margin-top: 62px;
+
+  &:first-of-type > p {
+    margin-bottom: 12px;
+  }
+}
+
+.postNum,
+.tel {
+  margin-right: 20px;
+}
+
+.copyWrap {
+  background-color: #000;
+}
+
+.copy {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 12px;
+  color: #fff;
+}
