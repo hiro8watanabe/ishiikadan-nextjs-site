@@ -1,7 +1,12 @@
-import React from 'react'
+import Head from "next/head";
+import React, { ReactNode } from "react";
+import { Header } from "../Header/Header";
 
-export const Layout =()=> {
+export const Layout:React.FC<{home:ReactNode}> = ({home}) => {
   return (
-    <div>Layout</div>
-  )
-}
+    <>
+      <Header />
+      
+    </>
+  );
+};
