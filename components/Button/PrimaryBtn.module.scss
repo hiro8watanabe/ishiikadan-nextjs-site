@@ -11,7 +11,12 @@
     padding: 13px 67px;
   }
 
+  span {
+    transition: 1s;
+  }
+
   &:hover span {
+    transition: 1s;
     color: #fff;
   }
 
