@@ -1,0 +1,28 @@
+.ctaBtn {
+  width: 170px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 36px;
+  background: #978f10;
+  opacity: 1;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(/images/calender@2x.png) no-repeat;
+    background-size: contain;
+    margin-bottom: -3px;
+    margin-right: 8px;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.marginLeftAuto{
+  margin-left: auto;
+}
