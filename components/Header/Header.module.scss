@@ -1,0 +1,82 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 80px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  // background-color: #333;
+
+  // @include v.mq(l) {
+  //   height: v.$pc-header-height;
+  // }
+}
+
+.inner {
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1180px;
+
+  // @include v.mq(l) {
+  //   height: v.$pc-header-height;
+  // }
+}
+
+.logo {
+  // width: 200px;
+  transition: 0.3s;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.logoImg {
+  animation: show 0.5s;
+}
+
+.logoImgSub {
+  animation: show 0.5s;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.lists {
+  display: flex;
+  margin-left: 120px;
+}
+.list {
+  margin-right: 30px;
+  color: #fff;
+}
+
+.ctaBtn {
+  margin-left: auto;
+}
+
+.js-scroll__nav {
+  /* 背景を白にする */
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.js-change {
+  display: none;
+}
+.js-nav-change {
+  color: #000;
+}
+
+.mlAuto {
+  margin-left: auto;
+}
