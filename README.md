@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+##石井花壇という架空の旅館のサイトをNext.jsで作成
+
+練習用デザインカンプは下記より購入
+https://shogo-log.com/xd-distribution/
+
 
 ## Getting Started
 
