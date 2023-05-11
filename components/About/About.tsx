@@ -24,7 +24,7 @@ const About = () => {
             東北の奥座敷である温海温泉郷
             <br />
             開湯は1300年前とされ、役小角が
-            <br />
+            <br  />
             発見したと伝えられます
           </p>
           <p
@@ -34,9 +34,9 @@ const About = () => {
             data-aos-offset="350"
           >
             石井花壇は江戸より続く由緒ある旅館で
-            <br />
+            <br className={styles.isPc} />
             クラシックな作りの中に大正ロマンあふれる
-            <br />
+            <br className={styles.isPc} />
             内装を残しております
           </p>
           <p
@@ -46,9 +46,9 @@ const About = () => {
             data-aos-offset="400"
           >
             圧倒的癒やしの空間で
-            <br />
+            <br className={styles.isPc} />
             頑張る現代人に
-            <br />
+            <br className={styles.isPc} />
             頑張らない圧倒的な非日常をご提供します
           </p>
         </div>

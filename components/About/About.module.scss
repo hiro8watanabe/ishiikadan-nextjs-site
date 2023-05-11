@@ -16,6 +16,10 @@
   writing-mode: vertical-rl;
   text-orientation: upright;
 
+  @media screen and (max-width: 768px) {
+    writing-mode: initial;
+  }
+
   // @include v.mq(ml) {
   //   -ms-writing-mode: tb-rl;
   //   writing-mode: vertical-rl;
@@ -31,6 +35,13 @@
     line-height: 2.4;
     margin-right: -4.896vw;
     letter-spacing: 14px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 22px;
+      line-height: 1.8;
+      margin-right: 0;
+      letter-spacing: 8px;
+    }
   }
 
   .textWrap,
@@ -49,6 +60,11 @@
     line-height: 2.4;
     margin-left: 5.104vw;
 
+    @media screen and (max-width: 576px) {
+      line-height: 1.8;
+      font-size: 12px;
+    }
+
     // @include v.mq(ml) {
     //   margin-left: v.vw(98);
     // }
@@ -57,5 +73,15 @@
   .sign {
     font-size: 22px;
     letter-spacing: 14px;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 16px;
+    }
+  }
+
+  .isPc {
+    @media screen and (max-width: 576px) {
+      display: none;
+    }
   }
 }
