@@ -46,7 +46,7 @@ const About = () => {
             data-aos-offset="400"
           >
             圧倒的癒やしの空間で
-            <br className={styles.isPc} />
+            <br />
             頑張る現代人に
             <br className={styles.isPc} />
             頑張らない圧倒的な非日常をご提供します
