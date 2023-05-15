@@ -1,0 +1,86 @@
+.plans {
+  background: url(../../public/images/bg02@2x.png);
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 144px;
+}
+
+.inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: 5.208vw;
+  padding-right: 5.208vw;
+}
+
+.sectionTitle {
+  margin-top: 20px;
+  font-size: 36px;
+}
+
+.cardLink {
+  margin-top: 66px;
+  display: flex;
+  flex-direction: column;
+  width: clamp(14.375rem, 5.055rem + 19.42vw, 19.375rem);
+}
+
+.cardLink:not(:first-child) {
+  margin-left: clamp(0.625rem, -1.705rem + 4.85vw, 1.875rem);
+}
+
+@media (max-width: 767px) {
+  .cardLink:not(:first-child) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .cardLink {
+    max-width: 660px;
+    width: initial;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .cardLink {
+    max-width: 660px;
+    width: 100%;
+  }
+}
+
+.cardRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .cardRow {
+    display: block;
+  }
+}
+
+.card {
+  text-align: left;
+}
+
+.cardImg {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cardContent {
+}
+
+.cardTitle {
+  font-size: 20px;
+  margin-top: 32px;
+}
+
+.cardText {
+  margin-top: 36px;
+}

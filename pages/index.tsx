@@ -8,6 +8,7 @@ import { Footer } from "../components/Footer/Footer";
 import { Header } from "../components/Header/Header";
 import Slider from "../components/Slider/Slider";
 import styles from "../styles/Home.module.css";
+import { Plans } from "../components/Plans/Plans";
 
 const Home: NextPage = () => {
   return (
@@ -30,7 +31,7 @@ const Home: NextPage = () => {
         <Slider />
         <About />
         <Feature />
-        
+        <Plans />
       </main>
       <Footer />
     </div>
