@@ -9,6 +9,7 @@ import { Header } from "../components/Header/Header";
 import Slider from "../components/Slider/Slider";
 import styles from "../styles/Home.module.css";
 import { Plans } from "../components/Plans/Plans";
+import { News } from "../components/News/News";
 
 const Home: NextPage = () => {
   return (
@@ -32,6 +33,7 @@ const Home: NextPage = () => {
         <About />
         <Feature />
         <Plans />
+        <News />
       </main>
       <Footer />
     </div>
