@@ -13,7 +13,8 @@ const Feature = () => {
           data-aos-duration="2000"
         >
           <Image
-            src="/images/oheya-top.png"
+            // src="/images/oheya-top.png"
+            src="/images/room01.jpg"
             alt="お部屋の画像"
             width={862}
             height={448}
@@ -53,7 +54,8 @@ const Feature = () => {
           data-aos-duration="2000"
         >
           <Image
-            src="/images/menu-top.png"
+            // src="/images/menu-top.png"
+            src="/images/food01.jpg"
             alt="料理の画像"
             width={862}
             height={448}
@@ -92,7 +94,8 @@ const Feature = () => {
           data-aos-duration="2000"
         >
           <Image
-            src="/images/onsen-top.png"
+            // src="/images/onsen-top.png"
+            src="/images/onsen01.jpg"
             alt="温泉の画像"
             width={862}
             height={448}

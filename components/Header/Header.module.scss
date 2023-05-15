@@ -52,13 +52,20 @@
   }
 }
 
+.nav {
+  margin-left: auto;
+}
+
 .lists {
   display: flex;
-  margin-left: 120px;
+  align-items: center;
 }
 .list {
-  margin-right: 30px;
   color: #fff;
+
+  &:not(:last-child) {
+    margin-right: clamp(2rem, -0.33rem + 4.85vw, 3.25rem);
+  }
 }
 
 .ctaBtn {

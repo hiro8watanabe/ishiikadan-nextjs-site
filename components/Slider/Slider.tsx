@@ -38,7 +38,8 @@ export default function Slider() {
         <SwiperSlide className={styles.swiperSlide}>
           <div className={styles.slideImg}>
             <Image
-              src="/images/mainbg01.png"
+              // src="/images/mainbg01.png"
+              src="/images/ryokan01.jpg"
               alt="ロゴ"
               width={1920}
               height={1320}
@@ -52,7 +53,8 @@ export default function Slider() {
         <SwiperSlide className={styles.swiperSlide}>
           <div className={styles.slideImg}>
             <Image
-              src="/images/mainbg02.jpg"
+              // src="/images/mainbg02.jpg"
+              src="/images/ryokan02.jpg"
               alt="ロゴ"
               width={1920}
               height={1320}
@@ -66,7 +68,8 @@ export default function Slider() {
         <SwiperSlide className={styles.swiperSlide}>
           <div className={styles.slideImg}>
             <Image
-              src="/images/mainbg03.jpg"
+              // src="/images/mainbg03.jpg"
+              src="/images/ryokan03.jpg"
               alt="ロゴ"
               width={1920}
               height={1320}

@@ -30,6 +30,7 @@ const Home: NextPage = () => {
         <Slider />
         <About />
         <Feature />
+        
       </main>
       <Footer />
     </div>

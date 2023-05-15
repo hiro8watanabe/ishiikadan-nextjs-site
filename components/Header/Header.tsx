@@ -2,8 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { CtaBtn } from "../Button/CtaBtn";
-import { MarginLeft } from "../Utils/MarginLeft";
-import { Spacer } from "../Utils/Spacer";
 
 import styles from "./Header.module.scss";
 
@@ -24,7 +22,7 @@ export const Header = () => {
           />
         </Link>
 
-        <nav>
+        <nav className={styles.nav}>
           <ul className={styles.lists}>
             <li className={styles.list}>
               <Link href="/room">お部屋</Link>
@@ -35,14 +33,11 @@ export const Header = () => {
             <li className={styles.list}>
               <Link href="/onsen">温泉</Link>
             </li>
+            <li className={styles.list}>
+              <CtaBtn />
+            </li>
           </ul>
         </nav>
-        {/* <Spacer axis="horizontal" size={1} style={20}/> */}
-        {/* <MarginLeft spacer={"MarginLeftAuto"} /> */}
-        {/* <CtaBtn spacer={styles.marginLeftAuto} /> */}
-        <span className={styles.mlAuto}>
-          <CtaBtn />
-        </span>
       </div>
     </header>
   );
